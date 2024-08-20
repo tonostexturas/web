@@ -1,0 +1,115 @@
+.contenedor-inicio {
+    text-align: center;
+    font-style: italic;
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-image: url(img/fondouno1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh; 
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.471); 
+    box-sizing: border-box; 
+    position: relative;
+    overflow: hidden;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block; 
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute; 
+    bottom: 0;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+
+  
+}
+#imgmal{
+    height: 445px;
+    
+
+}
+
+
+
+.contenedor-inicio {
+    animation: slide 15s infinite;
+}
+
+.contenedor-mensaje{
+    color:rgb(255, 255, 255);
+    margin-top: 0rem;
+    background-size: cover;
+}
+.wrapper{
+    margin: 50px auto ;
+    width: 90%;
+
+}
+#bebe{
+    max-width: 350px ;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.text-box{
+    color: black;
+}
+.text-box h2{
+    font-size: 42px;
+
+}
+.text-box p{
+    font-size: 16px;
+}
+#bebedos{
+    max-width: 350px ;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 30px;  
+}
+.wrapperdos{
+    margin: 50px auto ;
+    width: 90%;
+
+}
+body{
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+#icono{
+    background-color: black;
+}
+#cards{
+    box-shadow: 9px 10px 18px 0px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 9px 10px 18px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 9px 10px 18px 0px rgba(0, 0, 0, 0.75);
+}
